@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.header{
+    position: sticky;
+    z-index: 3;
+    background: black;
+    top: 0;
+}
+.container1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.button{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.6);
+    margin-left:  50px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.rainbow{
+background-image: url(../img/rainbow.png);
+min-height: 781px;
+background-position-x: 1000px;
+background-repeat: no-repeat;
+display: flex;
+justify-content: flex-end;
+}
+.tel{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    color: white;
+    margin-left:  44px;
+    text-decoration: none;
+}
+.digital-agent{
+    color:rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 57px;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+.Active-Trust{
+    margin-left: 200px;
+    margin-top: 10px;
+}
+h1{
+  font-family: 'Open Sans', sans-serif;
+  background: url(../img/bluegrad.png);
+  mix-blend-mode: lighten;
+  font-size:100px; 
+  background-size: cover;
+  background-attachment: fixed;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.line{
+    max-width: 130px;
+    margin-left: 220px;
+    margin-top: 20px;
+
+}
+.uppertext{
+    font-family: 'Montserrat', sans-serif;
+    color:rgb(255, 255, 255, 0.6);
+    margin-left: 220px;
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 152%;
+}
+.connect-href{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+.container2{
+    margin-top: 290px;
+    width: auto;
+    height: 800px;
+    background-color: #E1E8F4;
+}
+.cnt2txt{
+    margin-left: 250px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+}
+.table1{
+    table-layout: fixed;
+}
+.gadgets{
+    margin-top: 50px;
+    margin-left: 300px;
+}
+.offer{
+    display: flex;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 50px;
+    margin-left: 250px;
+    font-size: 32px;
+}
+.table2{
+    margin:auto;
+    border-spacing: 20px;
+    
+}
+.blue-text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    color: #59A8FD;
+}
+.white-text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-left: 20px;
+    line-height: 150%;
+}
+.gradient{
+    background: linear-gradient(100.74deg, #1C1C1C -7.06%, #0D0D0D 104.89%);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 3%;
+}
+.sub-table{
+    border-spacing: 15px;
+}
+.container3{
+    width: auto;
+    height: 1513px;
+    background-color: #090909;
+}
