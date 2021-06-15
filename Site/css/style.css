@@ -7,7 +7,7 @@ body{
 }
 .header{
     position: sticky;
-    z-index: 3;
+    z-index: 4;
     background: black;
     top: 0;
 }
@@ -52,15 +52,16 @@ justify-content: flex-end;
     margin-left: 200px;
     margin-top: 10px;
 }
-h1{
+.AT-bg{
   font-family: 'Open Sans', sans-serif;
-  background: url(../img/bluegrad.png);
+  background: url(../img/DA-ATbg.svg);
   mix-blend-mode: lighten;
   font-size:100px; 
   background-size: cover;
   background-attachment: fixed;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  
 
 }
 .line{
@@ -138,4 +139,358 @@ h1{
     width: auto;
     height: 1513px;
     background-color: #090909;
+}
+.workz{
+    color: white;
+}
+.table3{
+    margin: auto;
+    border-spacing: 30px;
+    padding-top: 10px;
+}
+.our-workz{
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    font-size: 32px;
+}
+.rectngle{
+    height: 380px;
+    width: 580px;
+    background: #595959;
+    box-shadow: 0px 15px 20px #000000;
+    border-radius: 5px;
+}
+.sub-table2{
+    margin: auto;
+    width: 580px;
+    border-spacing: 40px;
+}
+.white-text-media{
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-left: 20px;
+    line-height: 150%;
+}
+.container4{
+    width: auto;
+    height: 715px;
+    background: #E1E8F4;
+}
+.trust{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    padding-top: 100px;
+    margin-left: 376px;
+}
+.cards1234{
+    margin-left: 200px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.numbers{
+    font-family: 'Paytone One', fantasy;
+    font-size: 144px;
+    color: rgba(2, 123, 253, 0.15);
+    z-index: 1;
+    position: relative;
+}
+.text-1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    z-index: 2;
+    position: absolute;
+    padding-top: 180px;
+    margin-left: -650px;
+    line-height: 152%;
+}
+.text-2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    z-index: 2;
+    position: absolute;
+    padding-top: 200px;
+    margin-left: -160px;
+    line-height: 152%;
+}
+.text-3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    z-index: 2;
+    position: absolute;
+    padding-top: 130px;
+    margin-left: 360px;
+    line-height: 152%;
+}
+.text-4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    z-index: 2;
+    position: absolute;
+    padding-top: 140px;
+    margin-left: 900px;
+    line-height: 152%;
+}
+.blue-line{
+    width: 1200px;
+    margin-left: 360px;
+    margin-top: 140px;
+    border: 3px solid rgba(2, 123, 253, 0.25);
+}
+.c4-text{
+    margin-left: 360px;
+    padding-top: 100px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 152%;
+}
+.container5{
+    width: auto;
+    height: 770px;
+    background: rgb(0, 0, 0);
+    margin-top: 85px;
+    margin-left: 200px;
+    
+}
+
+.disk {
+    position: absolute; 
+    width: 30%;
+    padding: 15% 0; border-radius: 50%;  /* адаптивный круг */
+    margin-left: 15%;
+    margin-top: -14%;
+    font: 4.5vmin monospace; 
+    color: rgb(43, 104, 236);
+}
+  .disk b {
+    position: absolute;
+    left: 10%; /* все буквы ставим в одну точку*/
+    width: 0; /* убираем отступ */
+    font-family: 'Open Sans', sans-serif;
+    background: url(../img/DA-ATbg.svg);
+    mix-blend-mode: lighten;
+    background-size: cover;
+
+}
+  .disk b:nth-of-type(-n+30) {
+    bottom: 50%; /* отступ от центра по радиусу */
+    -ms-transform-origin: 0% 100%; 
+    -webkit-transform-origin: 0% 100%; transform-origin: 0% 100%;
+    padding-bottom: 35%; /* отступ от центра круга */
+}
+
+    .disk b:nth-of-type(1) {-ms-transform: rotate(200deg); -webkit-transform: rotate(200deg); transform: rotate(200deg);}
+    .disk b:nth-of-type(2) {-ms-transform: rotate(211deg); -webkit-transform: rotate(211deg); transform: rotate(211deg);}
+    .disk b:nth-of-type(3) {-ms-transform: rotate(222deg); -webkit-transform: rotate(222deg); transform: rotate(222deg);} 
+    .disk b:nth-of-type(4) {-ms-transform: rotate(233deg); -webkit-transform: rotate(233deg); transform: rotate(233deg);}
+    .disk b:nth-of-type(5) {-ms-transform: rotate(244deg); -webkit-transform: rotate(244deg); transform: rotate(244deg);} 
+    .disk b:nth-of-type(6) {-ms-transform: rotate(255deg); -webkit-transform: rotate(255deg); transform: rotate(255deg);}
+    .disk b:nth-of-type(7) {-ms-transform: rotate(266deg); -webkit-transform: rotate(266deg); transform: rotate(266deg);}
+    .disk b:nth-of-type(8) {-ms-transform: rotate(277deg); -webkit-transform: rotate(277deg); transform: rotate(277deg);}
+    .disk b:nth-of-type(9) {-ms-transform: rotate(288deg); -webkit-transform: rotate(288deg); transform: rotate(288deg);} 
+    .disk b:nth-of-type(10) {-ms-transform: rotate(299deg); -webkit-transform: rotate(299deg); transform: rotate(299deg);}
+    .disk b:nth-of-type(11) {-ms-transform: rotate(310deg); -webkit-transform: rotate(310deg); transform: rotate(310deg);} 
+    .disk b:nth-of-type(12) {-ms-transform: rotate(321deg); -webkit-transform: rotate(321deg); transform: rotate(321deg);}
+    .disk b:nth-of-type(13) {-ms-transform: rotate(332deg); -webkit-transform: rotate(332deg); transform: rotate(332deg);}
+    .disk b:nth-of-type(14) {-ms-transform: rotate(343deg); -webkit-transform: rotate(343deg); transform: rotate(343deg);}
+    .disk b:nth-of-type(15) {-ms-transform: rotate(354deg); -webkit-transform: rotate(354deg); transform: rotate(354deg);} 
+    .disk b:nth-of-type(16) {-ms-transform: rotate(5deg); -webkit-transform: rotate(5deg); transform: rotate(5deg);}
+    .disk b:nth-of-type(17) {-ms-transform: rotate(16deg); -webkit-transform: rotate(16deg); transform: rotate(16deg);} 
+    .disk b:nth-of-type(18) {-ms-transform: rotate(27deg); -webkit-transform: rotate(27deg); transform: rotate(27deg);}
+    .disk b:nth-of-type(19) {-ms-transform: rotate(38deg); -webkit-transform: rotate(38deg); transform: rotate(38deg);}
+    .disk b:nth-of-type(20) {-ms-transform: rotate(49deg); -webkit-transform: rotate(49deg); transform: rotate(49deg);}
+    .disk b:nth-of-type(21) {-ms-transform: rotate(60deg); -webkit-transform: rotate(60deg); transform: rotate(60deg);} 
+    .disk b:nth-of-type(22) {-ms-transform: rotate(71deg); -webkit-transform: rotate(71deg); transform: rotate(71deg);}
+    .disk b:nth-of-type(23) {-ms-transform: rotate(82deg); -webkit-transform: rotate(82deg); transform: rotate(82deg);} 
+    .disk b:nth-of-type(24) {-ms-transform: rotate(93deg); -webkit-transform: rotate(93deg); transform: rotate(93deg);}
+    .disk b:nth-of-type(25) {-ms-transform: rotate(104deg); -webkit-transform: rotate(104deg); transform: rotate(104deg);}
+    .disk b:nth-of-type(26) {-ms-transform: rotate(115deg); -webkit-transform: rotate(115deg); transform: rotate(115deg);}
+    .disk b:nth-of-type(27) {-ms-transform: rotate(126deg); -webkit-transform: rotate(126deg); transform: rotate(126deg);} 
+    .disk b:nth-of-type(28) {-ms-transform: rotate(137deg); -webkit-transform: rotate(137deg); transform: rotate(137deg);}
+    .disk b:nth-of-type(29) {-ms-transform: rotate(148deg); -webkit-transform: rotate(148deg); transform: rotate(148deg);} 
+    .disk b:nth-of-type(30) {-ms-transform: rotate(159deg); -webkit-transform: rotate(159deg); transform: rotate(159deg);}
+
+.DA-AT{ /*Класс не работает*/
+    font-family: 'Open Sans', sans-serif;
+    background: url(../img/DA-ATbg.svg);
+    mix-blend-mode: lighten;
+    font-size:100px; 
+    background-size: cover;
+    background-attachment: fixed;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.cnt5-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    line-height: 152%;
+    color: #FFFFFF;
+}
+.info-table{
+    margin: auto;
+    border-spacing: 10px;
+    padding-top: 90px;
+}
+.radius{
+    z-index: 1;
+    padding-left: -1000px;
+}
+.boxinrad{
+    z-index: 2;
+    position: relative; 
+    margin-left: 280px;
+}
+.container6{
+    width: auto;
+    height: 690px;
+    background: #E1E8F4;
+    margin-top: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.form-table{
+    position: absolute;
+    margin: auto;
+    width: 591px;
+    height: 482px;
+    border-spacing: 40px;
+    background: linear-gradient(100.74deg, #1C1C1C -7.06%, #0D0D0D 104.89%);
+    box-shadow: 0px 15px 20px rgba(23, 29, 38, 0.4);
+    border-radius: 5px;
+    z-index: 1;
+    margin-top: -220px;
+    margin-left: -200px;
+    font-size: 18px;
+    line-height: 152%;
+    color: #FFFFFF;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.name-input{
+    position: relative;
+    width: 399px;
+    height: 55px;
+    background: linear-gradient(100.74deg, #1C1C1C -7.06%, #0D0D0D 104.89%);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-sizing: border-box;
+    border-radius: 3px;
+    z-index: 2;
+    margin-top: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.mini-txt{
+    font-size: 18px;
+    line-height: 152%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Montserrat', sans-serif;
+}
+.big-txt{
+    font-size: 24px;
+    line-height: 152%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Montserrat', sans-serif;
+}
+.button2{
+    position: relative;
+    width: 399px;
+    height: 52px;
+    background: #027BFD;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+.micro-txt{
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 122%;
+    color: rgba(255, 255, 255, 0.7);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.our-contacts{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    line-height: 110%;
+    color: black;
+}
+.first-div{
+    margin-left: -400px;
+}
+.moscow-txt{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 152%;
+
+}
+.telref{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    color: black;
+    text-decoration: none;
+}
+.ref-site{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 162%;
+}
+.social{
+    margin-top: 90px;
+}
+.space{
+    margin-left: 50px;
+    text-decoration: none;
+}
+.zero-space{
+    text-decoration: none;
+}
+.container7{
+    margin: auto;
+    width: auto;
+    height: 312px;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.INN{
+    font-size: 18px;
+    line-height: 142%;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+}
+.download{
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 142%;
+}
+.conf{
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 18px;
+    line-height: 142%;
 }
