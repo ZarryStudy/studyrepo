@@ -11,7 +11,7 @@ body{
     background: black;
     top: 0;
 }
-.container1{
+.headerdiv{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,6 +25,9 @@ body{
     margin-left:  50px;
     text-decoration: none;
     font-size: 20px;
+}
+.container1{
+    height: 440px;
 }
 .rainbow{
 background-image: url(../img/rainbow.png);
@@ -90,6 +93,7 @@ justify-content: flex-end;
     background-color: #E1E8F4;
 }
 .cnt2txt{
+    margin-top: 60px;
     margin-left: 250px;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
